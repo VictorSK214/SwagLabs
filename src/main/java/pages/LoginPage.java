@@ -45,7 +45,7 @@ public class LoginPage extends BasePage {
 
   @Step("Проверить, что поле 'Password' не заполнено")
   public LoginPage checkPasswordEmpty() {
-    assertThat(waitVisible(userNameTextInput).getAttribute("value")).isEmpty();
+    assertThat(waitVisible(passwordTextInput).getAttribute("value")).isEmpty();
     return this;
   }
 }

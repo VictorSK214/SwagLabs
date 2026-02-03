@@ -56,7 +56,7 @@ public class LoginTest extends BaseTest {
 
   @Test(
       description = "TC4. Логин c пустыми полями", groups = {"ui"})
-  @Description("При попытке входа с пустыми полями отображается сообщение: 'Username is required'")
+  @Description("При попытке входа с пустыми полями отображается сообщение: 'Epic sadface: Username is required'")
   @Owner("Victor.SK")
   public void test4() {
     new LoginPage()
